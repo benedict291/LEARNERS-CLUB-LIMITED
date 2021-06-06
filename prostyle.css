@@ -1,0 +1,84 @@
+#name h1 {
+  display: block;
+  float: left;
+}
+ul {
+  padding: none;
+  margin-top: none;
+  float: none;
+  list-style-type: none;
+}
+li a:hover {
+  background-color:#4CAF50 ;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color:  #111;
+  border: 2px solid #4CAF50;
+  width: 300px;
+  color: white;
+  float: left;
+} 
+.The main idea {
+  float: right;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.column { 
+  float: right;
+  width: 40%;
+  margin-top: 7px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form {
+  float: right;
+  border-width: 5px;
+  padding-top: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+body {
+  background-image: url('snow_mountain.jpg');
+}
+
+.update {
+  float: left;
+  display: inline;
+}
+.sub {
+  text-align: center;
+  text-shadow: white;
+  color: black;
+  text-transform: capitalize;
+}
+button:hover{
+  background-color: #111;
+}
+#URLs {
+   color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .The {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 140%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .The, .right, .form {
+    width: 100%;
+  }
+}

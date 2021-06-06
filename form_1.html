@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="posform.css">
+    <title>register your account</title>
+   
+</head>
+<body>
+<div id="logo" style="background-color: #111;padding: 40px;">
+   <svg height="130" width="500">
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:rgb(255,205,215);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(255,122,209);stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">LCL</text>
+  </svg>
+<h1 style="font-size: 60px;word-spacing: 10px;color: white;text-decoration: uppercase;float: left;">learners club limited.</h1>
+</div>    
+<div class="page">
+    <h2>APPLICATION FORM  FOR FRESHERS/NOVICE.</h2>
+    <form action=autocomplete="on" method="post" target="_blank">
+        <label for="fname">first name:</label><br><input type="text" id="fname" placeholder="your name"><br><br>
+        <label for="mname">middle name:</label><br><input type="text" id="mname" placeholder="your middle name"><br><br>
+        <label for="lname">last name:</label><br><input type="text" id="lname" placeholder="your last name"><br><br>
+        <label for="state">state of origin:</label><br>
+        <select id="state" name="state"><br><br>
+            <option value="abia state">abia</option>
+            <option value="adamawa state">adamawa</option>
+            <option value="akwa ibom state">akwa ibom</option>
+            <option value="anambra state">anambra</option>
+            <option value="bauchi state">bauchi</option>
+            <option value="bayelsa state">bayelsa </option>
+            <option value="benue state">benue</option>
+            <option value="borno state">borno</option>
+            <option value="cross river state">cross river</option>
+            <option value="delta state">delta</option>
+            <option value="ebonyi state">ebonyi</option>
+            <option value="edo state">edo</option>
+            <option value="ekiti state">ekiti</option>
+            <option value="enugu state">enugu</option>
+            <option value="gombe state">gombe</option>
+            <option value="imo state">imo</option>
+            <option value="jigawa state">jigagwa</option>
+            <option value="kaduna state">kaduna</option>
+            <option value="kano state">kano</option>
+            <option value="katsina state">katsina</option>
+            <option value="kebbi state">kebbi</option>
+            <option value="kogi state">kogi</option>
+            <option value="kwara state">kwara</option>
+            <option value="lagos state">lagos</option>
+            <option value="nasarawa state">nasarawa</option>
+            <option value="niger state">niger</option>
+            <option value="ogun state">ogun</option>
+            <option value="ondo state">ondo</option>
+            <option value="osun state">osun</option>
+            <option value="oyo state">oyo</ption>
+            <option value="plateau state">plateau</option>
+            <option value="rivers state">rivers</option>
+            <option value="sokoto state">sokoto</option>
+            <option value="taraba state">taraba</option>
+            <option value="yobe state">yobe</option>
+            <option value="zamfara state">zamfara</option>
+            <option value="fct state">abuja</option>
+    </select><br><br><br>
+        <label for="lga">Local Government Area(LGA):</label><br> <input type="text" id="lga"><br><br><br>
+        <label for="dateofbirth">date of birth</label><br><input type="date" id="dateofbiirth" name="date of birth"><br><br><br>
+        <label for="nationality">nationality</label><br><input type="text" id="nationality"><br><br><br>
+        <label for="email">EMAIL</label><br><input type="text" id="EMAIL"><br><br><br>
+        <label for="phone">Enter a phone number</label><br>
+        <input type="tel" id="phone" placeholder="+234"><br><br><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label><br><br><input type="radio" id="female" name="gender" value="female">
+        <lable for="female">female</lable><br><br><br>
+        <label for="appt">select a time that will be convenience (format:10.00.am)</label><br>
+        <input type="time" id="appt" name="appt"><br><br><br>
+        <label for="edu">educational status</label><br>
+        <select id="edu" name="eductional status"><br><br><br>
+            <option value="SSCE">SSCE Holder</option>
+            <option value="ND/HND">ND/HND Holder</option>
+            <option value="undergraduate">undergraduate</option>
+            <option value="graduate">Graduate (BSC degree)</option>
+            <option value="NO profession">No profession (certificate nil)</option>
+        </select><br><br><br>
+        <label for="user">username</label><br>
+        <input type="text" id="user" name="username" maxlength="10"><p>Required 10 characters or fewer letters and digits.</p><br><br><br>
+        <label for="pwd">password</label><br><input type="pwd" id="pwd" name="password"><ul><li>password must be clear and precise.</li><li>Use a password that is convenient.</li><li>Avoid verbose password so as to enable the user to remember.</li></ul><br><br><br>
+        <label for="cpwd">confirm password (verification)</label><br><input type="cpwd" id="cpwd" name="confirm password"><ul><li>Repeat the already typed characters in the password box.</li></ul><br><br><br>
+    </form>
+    <div class="controls"><span class="icon glyphicon glyphicon-log-in" aria-hidden="true"></span><input type="submit">       <input type="reset"><p>Already registered?<a href="Xform-3.html" target="_blank"><span style="border:1px solid black">SIGN IN</span></a>      <a href="project-1.html" target="_blank"><span style="border:1px solid black">HOME</span></a></p></div>
+ </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body{
+  background-image: url('snow_mountain.jpg');
+}
+
+.logo {
+  display: block;
+}
+.main {
+  word-spacing: 10px;
+  color: white;
+  text-decoration: uppercase;
+  font-size: 60px;
+  float: left;
+  padding: 40px;
+}
+
+input{
+  background-color: white;
+  width: 60%;
+  margin: 10px;
+  border:1px solid black;
+  padding: 10px 10px 10px 10px;
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline;
+}
+input[type=submit], input[type=reset]{
+  width: 10%;
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 2px;
+}
+input[type=submit]:hover{
+  background-color: white;
+}
+input[type=reset]:hover{
+  background-color: white;
+}
+h2 {
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  word-spacing: 10px;
+  text-shadow: 3px 3px blue;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+label {
+  text-transform: uppercase;
+  word-spacing: 10px;
+}
+
+option {
+  font-size: 10px;
+}
+
+select {
+  color:black;
+  background-color: white;
+  padding: 9px 9px 9px 9px; 
+  margin: 10px;
+  width: 100px;
+}
